@@ -9,7 +9,10 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ['@nuxtjs/color-mode'],
+  modules: [
+    '@nuxtjs/color-mode',
+    '@vueuse/motion/nuxt',
+  ],
   colorMode: {
     classSuffix: ''
   }
